@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import Navbar from './navbar/Navbar';
 import GlobalStyles from './styles/GlobalStyles';
+import Hero from './hero/Hero';
 
 const StyledApp = styled.div`
   width: 80%;
@@ -14,6 +15,7 @@ function App() {
     <StyledApp>
       <GlobalStyles />
       <Navbar />
+      <Hero />
       <h1>Hi, Mom.</h1>
     </StyledApp>
   );
