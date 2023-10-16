@@ -15,6 +15,7 @@ export const StyledUL = styled.ul`
 
 export const StyledLI = styled.li`
   cursor: pointer;
+  transition: color 0.2s ease-in-out;
 
   &:hover {
     color: var(--color-soft-red);
