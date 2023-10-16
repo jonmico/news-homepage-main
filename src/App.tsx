@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import GlobalStyles from './styles/GlobalStyles';
 import SidePanel from './components/side-panel/SidePanel';
 import Image from './components/image/Image';
+import Article from './components/article/Article';
 
 const StyledApp = styled.div`
   width: 1100px;
@@ -14,7 +15,7 @@ const StyledApp = styled.div`
   grid-template-areas:
     'nav nav'
     'image side'
-    'article side'
+    'main side'
     'small small';
   margin: auto;
   padding-top: 3rem;
@@ -28,6 +29,7 @@ function App() {
       <StyledApp>
         <Navbar />
         <Image />
+        <Article />
         <SidePanel />
       </StyledApp>
     </>
