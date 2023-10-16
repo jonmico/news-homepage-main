@@ -9,7 +9,7 @@ export const StyledNavbar = styled.nav`
 export const StyledUL = styled.ul`
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 2.75rem;
   color: var(--color-dark-gray-blue);
 `;
 

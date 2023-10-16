@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledHero = styled.div`
   display: grid;
-  grid-template-columns: auto 25%;
+  grid-template-columns: auto 31.5%;
   grid-template-rows: auto auto;
   padding-top: 3rem;
   gap: 2rem;
