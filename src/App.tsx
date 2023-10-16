@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 import Navbar from './components/navbar/Navbar';
 import GlobalStyles from './styles/GlobalStyles';
+import SidePanel from './components/side-panel/SidePanel';
+import Image from './components/image/Image';
 
 const StyledApp = styled.div`
   width: 1100px;
@@ -16,6 +18,7 @@ const StyledApp = styled.div`
     'small small';
   margin: auto;
   padding-top: 3rem;
+  gap: 2rem;
 `;
 
 function App() {
@@ -24,6 +27,8 @@ function App() {
       <GlobalStyles />
       <StyledApp>
         <Navbar />
+        <Image />
+        <SidePanel />
       </StyledApp>
     </>
   );
