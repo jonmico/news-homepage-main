@@ -5,6 +5,7 @@ import GlobalStyles from './styles/GlobalStyles';
 import SidePanel from './components/side-panel/SidePanel';
 import Image from './components/image/Image';
 import Article from './components/article/Article';
+import BottomPanel from './components/bottom-panel/BottomPanel';
 
 const StyledApp = styled.div`
   width: 1100px;
@@ -31,6 +32,7 @@ function App() {
         <Image />
         <Article />
         <SidePanel />
+        <BottomPanel />
       </StyledApp>
     </>
   );
