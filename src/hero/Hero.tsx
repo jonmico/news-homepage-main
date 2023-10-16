@@ -8,6 +8,7 @@ export default function Hero() {
         <Image src={'/images/image-web-3-desktop.jpg'} />
       </ImageContainer>
       <SidePanel />
+      <h1>Hi, Mom from Hero.</h1>
     </StyledHero>
   );
 }

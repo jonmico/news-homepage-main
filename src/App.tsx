@@ -17,6 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <h1>Hi, Mom.</h1>
+      <h1>Hi, Mom (again).</h1>
     </StyledApp>
   );
 }

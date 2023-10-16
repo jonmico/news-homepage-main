@@ -4,7 +4,8 @@ export const StyledSidePanel = styled.div`
   background-color: var(--color-very-dark-blue);
   color: var(--color-gray-blue);
   padding: 1.5rem 2rem;
-  width: 35%;
+  grid-row: 1 / -1;
+  grid-column: 2 / 3;
 `;
 
 export const StyledH2 = styled.h2`

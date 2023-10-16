@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledHero = styled.div`
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 25%;
+  grid-template-rows: auto auto;
   padding-top: 3rem;
   gap: 2rem;
   width: 100%;
