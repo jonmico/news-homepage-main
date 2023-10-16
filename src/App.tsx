@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import Navbar from './navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 import GlobalStyles from './styles/GlobalStyles';
-import Hero from './hero/Hero';
+import Hero from './components/hero/Hero';
 
 const StyledApp = styled.div`
   width: 80%;
