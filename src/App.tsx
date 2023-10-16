@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 import Navbar from './components/navbar/Navbar';
 import GlobalStyles from './styles/GlobalStyles';
-import Hero from './components/hero/Hero';
 
 const StyledApp = styled.div`
-  width: 77.5%;
+  width: 80%;
+  max-width: 1100px;
   margin: auto;
   padding-top: 3rem;
 `;
@@ -15,7 +15,6 @@ function App() {
     <StyledApp>
       <GlobalStyles />
       <Navbar />
-      <Hero />
     </StyledApp>
   );
 }
